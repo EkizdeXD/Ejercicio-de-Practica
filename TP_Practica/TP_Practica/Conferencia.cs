@@ -8,5 +8,6 @@ namespace TP_Practica
 {
     internal class Conferencia : Evento
     {
+        public string TemaPrincipal { get; set; }
     }
 }

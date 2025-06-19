@@ -13,9 +13,13 @@ namespace TP_Practica
         public string Ubicación { get; set; }
 
         public string obtener_descripción()
-        {
-            
-            return ;
+        {            
+            return $"{Nombre} - {Fecha} - {Ubicación}";
+        }
+
+        public void inscribir_participante(Participante participante)
+        { 
+            List<Participante> participantes = new List<Participante>();
         }
     }
 }

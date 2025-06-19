@@ -8,5 +8,6 @@ namespace TP_Practica
 {
     internal class Taller : Evento
     {
+        public int Máximo { get; set; }
     }
 }
